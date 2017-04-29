@@ -3,7 +3,7 @@
 This app is a survey of 10 questions that matches you with the best match friend based on response scores.
 
 ## Live Link 
- - https://github.com/chefjoannacodes/FriendFinder
+ - https://pizzaface-survey.herokuapp.com/
 
 ## Description on how to use the app
 Take the survey and get an instant match!!!
