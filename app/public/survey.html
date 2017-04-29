@@ -1,290 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Survey Page</title>
-
-  <!-- Latest compiled and minified CSS -->
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
 </head>
+
 <body>
-
-  <div class="container">
-<h1>Survey Questions</h1>
-
-<form>
-<h2>About You</h2>
-  <div class="form-group">
-    <label for="Name">Name (Required)</label>
-    <input type="text" class="form-control" id="name-text" aria-describedby="emailHelp" placeholder="Enter name">
-    <!-- <small id="name" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-  </div>
-  <div class="form-group">
-    <label for="LinktoPhoto">Link to Photo Image(Required)</label>
-    <input type="link" class="form-control" id="linkToPhoto" placeholder="Link to Photo Image">
-  </div>
-  
-  </form>
-  <br><br>
- <div><!-- First Question start -->
-<h2>Quiz(10)</h2>
- <h5>1. Your idea of fast food is Baja Fresh or Poke Bowls.</h5>
-
-</div>
-
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="question1">
-    Select an Option
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">1-Strongly Disagree</button>
-    <button class="dropdown-item" type="button">2</button>
-    <button class="dropdown-item" type="button">3</button>
-    <button class="dropdown-item" type="button">4</button>
-    <button class="dropdown-item" type="button">5-Strongly Agree</button>
-  </div>
-</div>
-<!-- First Question end -->
-<br><br>
-<div><!-- Second Question start -->
-
- <h5>3. If you could make a sandwich out of any meal, you would.</h5>
-
-</div>
-
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="question2">
-    Select an Option
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">1-Strongly Disagree</button>
-    <button class="dropdown-item" type="button">2</button>
-    <button class="dropdown-item" type="button">3</button>
-    <button class="dropdown-item" type="button">4</button>
-    <button class="dropdown-item" type="button">5-Strongly Agree</button>
-  </div>
-</div>
-<!-- Second Question end -->
-
-<br><br>
-<div><!-- Third Question start -->
-
- <h5>3. You generally order fries instead of salad when the waiter asks you.</h5>
-
-</div>
-
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="question3">
-    Select an Option
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">1-Strongly Disagree</button>
-    <button class="dropdown-item" type="button">2</button>
-    <button class="dropdown-item" type="button">3</button>
-    <button class="dropdown-item" type="button">4</button>
-    <button class="dropdown-item" type="button">5-Strongly Agree</button>
-  </div>
-</div>
-<!-- Third Question end -->
-<br><br>
-<div><!-- Fourth Question start -->
-
- <h5>4. You ask for extra cheese wherever you can.</h5>
-
-</div>
-
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="question4">
-    Select an Option
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">1-Strongly Disagree</button>
-    <button class="dropdown-item" type="button">2</button>
-    <button class="dropdown-item" type="button">3</button>
-    <button class="dropdown-item" type="button">4</button>
-    <button class="dropdown-item" type="button">5-Strongly Agree</button>
-  </div>
-</div>
-<!-- Fourth Question end -->
-
-<br><br>
-
-<div><!-- Fifth Question start -->
-
- <h5>5. You prefer white creamy sauces as opposed to red, tomato ones. </h5>
-
-</div>
-
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="question5">
-    Select an Option
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">1-Strongly Disagree</button>
-    <button class="dropdown-item" type="button">2</button>
-    <button class="dropdown-item" type="button">3</button>
-    <button class="dropdown-item" type="button">4</button>
-    <button class="dropdown-item" type="button">5-Strongly Agree</button>
-  </div>
-</div>
-<!-- Fifth Question end -->
-<br><br>
-
-<div><!-- Sixth Question start -->
-
- <h5>6. The first thing you think about in the morning is food.</h5>
-
-</div>
-
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="question6">
-    Select an Option
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">1-Strongly Disagree</button>
-    <button class="dropdown-item" type="button">2</button>
-    <button class="dropdown-item" type="button">3</button>
-    <button class="dropdown-item" type="button">4</button>
-    <button class="dropdown-item" type="button">5-Strongly Agree</button>
-  </div>
-</div>
-<!-- Sixth Question end -->
-<br><br>
-
-<div><!-- Seventh Question start -->
-
- <h5>7. You prefer olive oil to butter.</h5>
-
-</div>
-
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="question7">
-    Select an Option
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">1-Strongly Disagree</button>
-    <button class="dropdown-item" type="button">2</button>
-    <button class="dropdown-item" type="button">3</button>
-    <button class="dropdown-item" type="button">4</button>
-    <button class="dropdown-item" type="button">5-Strongly Agree</button>
-  </div>
-</div>
-<!-- Seventh Question end -->
-<br><br>
-
-<div><!-- Eighth Question start -->
-
- <h5>8. You would skip right to dessert every chance you got.</h5>
-
-</div>
-
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="question8">
-    Select an Option
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">1-Strongly Disagree</button>
-    <button class="dropdown-item" type="button">2</button>
-    <button class="dropdown-item" type="button">3</button>
-    <button class="dropdown-item" type="button">4</button>
-    <button class="dropdown-item" type="button">5-Strongly Agree</button>
-  </div>
-</div>
-<!-- Eighth Question end -->
-<br><br>
-
-<div><!-- Ninth Question start -->
-
- <h5>9. The idea of a living a life without bread is absurd to you.</h5>
-
-</div>
-
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="question9">
-    Select an Option
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">1-Strongly Disagree</button>
-    <button class="dropdown-item" type="button">2</button>
-    <button class="dropdown-item" type="button">3</button>
-    <button class="dropdown-item" type="button">4</button>
-    <button class="dropdown-item" type="button">5-Strongly Agree</button>
-  </div>
-</div>
-<!-- Ninth Question end -->
-<br><br>
-
-
-<div><!-- Tenth Question start -->
-
- <h5>10. You're all about the dark meat. Face it, it's more flavorful.</h5>
-
-</div>
-
-<div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="question10">
-    Select an Option
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">1-Strongly Disagree</button>
-    <button class="dropdown-item" type="button">2</button>
-    <button class="dropdown-item" type="button">3</button>
-    <button class="dropdown-item" type="button">4</button>
-    <button class="dropdown-item" type="button">5-Strongly Agree</button>
-  </div>
-</div>
-<!-- Tenth Question end -->
-<br><br>
-  <button type="submit" class="btn btn-success" id="submit">Submit</button>
-
-
-</div>
-
-    <footer class="footer">
-      <div class="container">
-        <p><a href="/api/friends">API Friends List</a> | <a href="/api/friendlist">GitHub Repo</a><a href="https://github.com/chefjoannacodes/FriendFinder.git"></p>
-      </div>
-    </footer>
-
-  </div>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 style="font-family:arial;">Survey Question</h1>
+                <hr>
+                <h2 style="font-family:Oswald, sans-serif;">About You</h2>
+                <form>
+                    <div class="form-group">
+                        <label class="control-label">Name (required)</label>
+                        <input class="form-control" type="text" id="name-text">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Photo Link (required)</label>
+                        <input class="form-control" type="text" id="linkToPhoto">
+                    </div>
+                </form>
+                <hr>
+                <h2 style="font-family:Oswald, sans-serif;">Question 1:</h2>
+                <h3 style="font-family:Oswald, sans-serif;">Your idea of fast food is Baja Fresh or Poke Bowls.</h3>
+                <select class="input-lg" id="question1">
+                    <optgroup label="Select Option">
+                        <option value="1" selected="">1 (Strongly Agree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Disagree)</option>
+                    </optgroup>
+                </select>
+                <h2 style="font-family:Oswald, sans-serif;">Question 2:</h2>
+                <h3 style="font-family:Oswald, sans-serif;">If you could make a sandwhich out of any meal you would.</h3>
+                <select class="input-lg" id="question2">
+                    <optgroup label="Select Option">
+                        <option value="1" selected="">1 (Strongly Agree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Disagree)</option>
+                    </optgroup>
+                </select>
+                <h2 style="font-family:Oswald, sans-serif;">Question 3:</h2>
+                <h3 style="font-family:Oswald, sans-serif;">You generally order fries instead of salad.</h3>
+                <select class="input-lg" id="question3">
+                    <optgroup label="Select Option">
+                        <option value="1" selected="">1 (Strongly Agree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Disagree)</option>
+                    </optgroup>
+                </select>
+                <h2 style="font-family:Oswald, sans-serif;">Question 4:</h2>
+                <h3 style="font-family:Oswald, sans-serif;">You ask for extra cheese whenever you can.</h3>
+                <select class="input-lg" id="question4">
+                    <optgroup label="Select Option">
+                        <option value="1" selected="">1 (Strongly Agree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Disagree)</option>
+                    </optgroup>
+                </select>
+                <h2 style="font-family:Oswald, sans-serif;">Question 5:</h2>
+                <h3 style="font-family:Oswald, sans-serif;">You prefer white creamy sauces as opposed to red, tomato ones.</h3>
+                <select class="input-lg" id="question5">
+                    <optgroup label="Select Option">
+                        <option value="1" selected="">1 (Strongly Agree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Disagree)</option>
+                    </optgroup>
+                </select>
+                <h2 style="font-family:Oswald, sans-serif;">Question 6:</h2>
+                <h3 style="font-family:Oswald, sans-serif;">The first thing you think about in the morning is food.</h3>
+                <select class="input-lg" id="question6">
+                    <optgroup label="Select Option">
+                        <option value="1" selected="">1 (Strongly Agree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Disagree)</option>
+                    </optgroup>
+                </select>
+                <h2 style="font-family:Oswald, sans-serif;">Question 7:</h2>
+                <h3 style="font-family:Oswald, sans-serif;">You prefer olive oil to butter.</h3>
+                <select class="input-lg" id="question7">
+                    <optgroup label="Select Option">
+                        <option value="1" selected="">1 (Strongly Agree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Disagree)</option>
+                    </optgroup>
+                </select>
+                <h2 style="font-family:Oswald, sans-serif;">Question 8:</h2>
+                <h3 style="font-family:Oswald, sans-serif;">You would skip right to desert every chance you got.</h3>
+                <select class="input-lg" id="question8">
+                    <optgroup label="Select Option">
+                        <option value="1" selected="">1 (Strongly Agree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Disagree)</option>
+                    </optgroup>
+                </select>
+                <h2 style="font-family:Oswald, sans-serif;">Question 9:</h2>
+                <h3 style="font-family:Oswald, sans-serif;">The idea of living without bread is absurd to you.</h3>
+                <select class="input-lg" id="question9">
+                    <optgroup label="Select Option">
+                        <option value="1" selected="">1 (Strongly Agree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Disagree)</option>
+                    </optgroup>
+                </select>
+                <h2 style="font-family:Oswald, sans-serif;">Question 10:</h2>
+                <h3 style="font-family:Oswald, sans-serif;">You're all about the dark meat. Face it, it's more flavorfull.</h3>
+                <select class="input-lg" id="question10">
+                    <optgroup label="Select Option">
+                        <option value="1" selected="">1 (Strongly Agree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Disagree)</option>
+                    </optgroup>
+                </select>
+                <br>
+<br>
+                <button class="btn btn-success btn-block btn-lg" type="button" id="submit">Submit</button>
+                <hr>
+                <footer>
+                    <p><a href="/api/friends">API Friends List </a> | <a href="https://github.com/chefjoannacodes/FriendFinder" target="_blank">GitHub Repo</a> </p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="resultsModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="text-center modal-title" id="modalHeader"></h4></div>
+                <div class="modal-body"><img class="img-rounded img-responsive" src="" width="100%" id="modalImg"></div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" type="button" data-dismiss="modal" modal>Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type= "text/javascript">
   $("#submit").on("click", function(){
     $("#question1").click(function(i) {
         values.push($(this).val()); //add value to array
         console.log("our value array", values);
     });
-    // var turnToNum = parseInt(scores[i]);
-    // console.log(turnToNum);
-    // var newScoreArr = [];
-    // newScoreArr.push(turnToNum);
-    // // var totalScore = newScoreArr - 
+   
     var addFriend = {
       name: $("#name-text").val().trim(),
       photo: $("#linkToPhoto").val().trim(),
-      // score: totalScore;
+      scores: [$("#question1").val(), $("#question2").val(), $("#question3").val(), $("#question4").val(),$("#question5").val(),$("#question6").val(),$("#question7").val(),$("#question8").val(),$("#question9").val(),$("#question10").val()]
     };
-    // var totalDifference = newScoreArr[i] - friendsArr[i].scores[i];
+
 
     console.log(addFriend);
 
     var currentURL = window.location.origin;
 
     $.post(currentURL + "/api/friends", addFriend, function(data){
-      if (data==true){
-        alert("Yay you have a match!");
-      }
-      if (data==false) {
-        alert("Sorry there are no matches available righgt now")
-      }
-      $("#name-text").val("");
-      $("#linkToPhoto").val("");
+      console.log(data);
+
+      $("#modalHeader").text(data.name + " is your match!");
+      $("#modalImg").attr("src", data.photo);
+
+      $("#resultsModal").modal("toggle");
+
+     
     });
-    return false;
+    
   })
 </script>
 </body>

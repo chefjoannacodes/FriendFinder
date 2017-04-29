@@ -39,27 +39,6 @@
 
 </body>
 
-<script type="text/javascript">
-    function runFriendList(){
-      var currentURL = window.location.origin;
 
-      $.ajax({url: currentURL + "/api/friends", method:"GET"})
-
-      .done(function(friendData){
-        console.log("URL: " + currentURL + "/api/friends");
-        // console.log(friendData);
-        for (var i=0; i<friendData.length; i++){
-          console.log(friendData[i]);
-
-          var friendSection = $("<div>");
-          friendSection.addClass('well');
-          $("#friendSection").append(friendSection);
-          $("#friendSection").append(friendData[i].name + friendData[i].photo);
-        }
-
-      });
-    }
-    runFriendList();
-</script>
 
 </html>

@@ -28,8 +28,7 @@ var friendsArr = [{
       4,
       1
     ]
-},
-{
+},{
   "name":"OliveOyl",
   "photo":"http://www.jewornotjew.com/img/people/o/olive_oyl.jpg",
   "scores":[
@@ -44,8 +43,7 @@ var friendsArr = [{
       4,
       1
     ]
-},
-{
+},{
   "name":"Popeye",
   "photo":"http://i.dailymail.co.uk/i/pix/2015/08/06/17/2B27AEEF00000578-3186889-image-a-11_1438877038433.jpg",
   "scores":[
